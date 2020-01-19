@@ -1,10 +1,3 @@
-# fasta
-A Rust library for reading and writing FASTA formatted files.
-
-
-Example usage:
-
-```rust
 use std::env;
 use std::error::Error;
 use std::fs::File;
@@ -28,4 +21,3 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
-```
